@@ -8,6 +8,7 @@
  */
 
 
+
 // Example output
 // 1. swimming
 // 2. board games
@@ -79,6 +80,17 @@
 // Example output
 // Before loop 3, 0, 2, 8, 0, 0, 0
 // After loop 3, 0, 2, 8
+
+let numbers = [1, 2,0,5,0,0,0]
+
+while (numbers[numbers.length -1]=== 0) {
+numbers.pop()
+     
+
+
+}
+
+console.log(numbers)
 
 
 /**
